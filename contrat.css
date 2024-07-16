@@ -1,0 +1,104 @@
+body{
+    background-image: url("back93.jpg");
+    background-size: cover;
+}
+#form{
+    
+    border: 3px solid rgba(255, 255, 255, 0.468);
+    width: 900px;
+    margin-top: 50px;
+    position: absolute;
+    height: 500px;
+    margin-left: 200px;
+    padding-top: 30px;
+    padding-left: 50px;
+    border-radius: 50px;
+    background-color: rgba(82, 77, 77, 0.564);
+    box-shadow: 12px 12px  rgba(41, 7, 7, 0.678);
+}
+#form:hover{
+border: 3px orange solid;
+}
+.forml{
+    font-family: 'Jokerman';
+    font-weight: bolder;
+    color: rgba(3, 38, 216, 0.738);
+    margin: 10px;
+    text-shadow: 2px 2px wheat;
+    font-size: 20px;
+     transition: all 2s;
+}
+.forml:hover{
+    color:rgb(231, 213, 23);
+    text-shadow: 2px 2px rgb(8, 8, 8);
+
+}
+.formi{
+    width: 300px;
+    height: 30px;
+    border: 2px solid olive;
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 25px;
+    color:rgb(6, 210, 40);
+    font-family:"chiller" ;
+    font-weight: bolder;
+   
+    background-color: transparent;
+    box-shadow:4px 4px inset rgba(15, 14, 14, 0.511);
+   
+}
+.formi:hover{
+    border: 3px solid rgb(185, 33, 16);
+    width: 320px;
+    height: 35px;
+}
+#form1{
+    position: absolute;
+}
+#form2{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 0px;
+}
+#submit{
+    margin-top: 460px;
+    margin-left: 370px;
+    background-color: orange;
+    border: 2px solid black;
+    
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+}
+#submit:hover{
+background-color: cadetblue;
+border-color:darkblue ;
+}
+
+#back{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(56, 42, 165);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: all 3s;
+}
+a{
+    text-decoration: none;
+    color:wheat;
+}
+#back:hover{
+    border-color: whitesmoke;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.616);
+}
+#backtolog{
+    width: 180px;
+    height: 40px;
+    background-color: rgb(56, 42, 165);
+    border-radius: 10px;
+    margin-left: 950px;
+    margin-top: 20px;
+    transition: all 3s;
+}

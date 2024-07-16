@@ -1,0 +1,386 @@
+#body{
+    transition: all,color,5s;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+#foodcon{
+    
+    width: 930px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 80px;
+    background-attachment: fixed;
+    
+    border-radius: 100px;
+    margin-top: 300px;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    border: 2px solid rgb(253, 255, 250);
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    transition: all,color,4s;
+    background-color: rgba(13, 17, 15, 0.359);
+   
+}
+a:hover{
+    background-color: rgb(161, 10, 10);
+    
+}
+a:active{
+    color: yellowgreen;
+    background-color: blueviolet;
+}
+#headList{
+    margin-top: 190px;
+    position:absolute;
+    margin-left:120px;
+   
+    
+}
+#home,#service,#contact,#contrat,#developers{
+    margin-left: 70px;
+    background-color: rgba(127, 255, 212, 0.367);
+    width : 200px;
+}
+#home:hover,#service:hover,#contact:hover,#contrat:hover,#developers:hover{
+    
+    background-color: rgba(17, 88, 229, 0.716);
+}
+#list{
+    position: absolute;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    padding-left: 30px;
+    width: 900px;
+    margin-top: 250px;
+    font-size: 30px;
+    margin-left: 200px;
+    
+    
+}
+#hname{
+    
+    position: absolute;
+    text-align: center;
+    font-family: "Baskerville Old Face";
+    font-size: 100px;
+    border: 5px rgb(19, 24, 24) solid;
+    text-shadow: 2px 2px black;
+    color:rgb(32, 218, 212);
+    transition: color ,shadow ,2s;
+    margin-top: 10px;
+    
+    
+   
+    width: 100%;
+    border-radius: 20px;
+    background-image: url("images (13).jpg");
+   
+}
+#hname:hover{
+    color:gold;
+    text-shadow: 5px 5px wheat;
+}
+#con{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 10px;
+    margin-left: 50px;
+    padding-left: 20px;
+    
+    
+}
+#prom{
+    width: 100%;
+    height: 300px;
+    position: fixed;
+    background-color: black;
+}
+.imgs{
+    width: 250px;
+    height: 230px;
+    border: 3px gray solid;
+    border-radius: 10px;
+    margin: 30px;
+    transition:width , height, color, 5s;
+    cursor: pointer;
+}
+.imgs:hover{
+    height: 220px;
+    width: 270px;
+    border-color: blue;
+    
+}
+.discription{
+    width: 230px;
+    height: 150px;
+    border-left: 5px yellowgreen solid;
+    color:rgb(14, 17, 15);
+    padding-left: 5px;
+    font-family: "Baskerville Old Face";
+    font-size: 20px;
+    visibility: hidden;
+    
+}
+#menu{
+    position: absolute;
+    text-align: center;
+    border-bottom: 2px dashed yellow;
+    color: green;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 200px;
+    display: none;
+    
+    
+}
+#wellcoming{
+    visibility: hidden;
+   transition: all,5s;
+}
+#chif{
+    position: absolute;
+    margin-top: -1500px;
+    position: fixed;
+
+}
+#waiter{
+    width: 300px;
+    height: 400px;
+}
+#talkbox{
+    position: absolute;
+    margin-top: -1550px;
+    margin-left: 240px;
+    position: fixed;
+    
+}
+#talk1{
+    position: absolute;
+    margin-top: 80px;
+    width: 230px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.price{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    color:ghostwhite;
+    background-color: goldenrod;
+}
+#shprice{
+    margin-left: 230px;
+    margin-top: 40px;
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#ayprice{
+    margin-left: 545px;
+    margin-top: 40px;
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#fiprice{
+    margin-left: 860px;
+    margin-top: 40px;
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#paprice{
+    margin-top: 340px;
+    margin-left: 230px;
+    
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#riprice{
+    margin-top: 340px;
+    margin-left: 545px;
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#maprice{
+    margin-top: 340px;
+    margin-left: 860px;
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#tiprice{
+    margin-top: 635px;
+    margin-left: 230px;
+    
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#kiprice{
+    margin-top: 635px;
+    margin-left: 545px;
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#doprice{
+    margin-top: 635px;
+    margin-left: 860px;
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#buprice{
+    margin-top: 925px;
+    margin-left: 230px;
+    
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#piprice{
+    margin-top: 925px;
+    margin-left: 545px;
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#chprice{
+    margin-top: -255px;
+    margin-left: 930px;
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#orderList{
+    width: 200px;
+    height: 340px;
+    position: absolute;
+    margin-left: 1100px;
+    border: 2px solid burlywood;
+    border-radius: 20px;
+   
+    color:brown;
+    position: fixed;
+    margin-top: 220px;
+    font-size: 40px;
+}
+#clap{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    position: fixed;
+    background-color: orange;
+    border: 2px rgb(18, 16, 17) solid;
+    margin-top: 520px;
+    margin-left: 1160px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#talks{
+    width: 320px;
+}
+#dayLightCon{
+    margin-top: 20px;
+    margin-left: 1300px;
+    color: yellow;
+    background-image: black;
+    position: absolute;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+#nightLightCon{
+    margin-top: 20px;
+    margin-left: 1300px;
+    color: rgb(14, 14, 13);
+    background-color: rgb(242, 236, 236);
+    position: absolute;
+    border-radius: 10px;
+   
+}
+#orderList{
+    transition: all,color,5s;
+    background-image: url("wood.png");
+    font-family: "Chiller";
+    background-size: cover;
+    
+}
+#orderList:hover{
+   border-color:darkgoldenrod;
+}
+#language{
+    margin-left: 1015px;
+    border-color: blueviolet;
+    background-color: blueviolet;
+    color:black;
+    font-size: 30px;
+    border-radius: 30px;
+    font-family: "chiller";
+    transition: all,3s;
+    
+}
+#language:hover{
+    background-color: rgb(43, 226, 223);
+    color:rgb(77, 12, 255);
+}
+#languageTitel{
+
+    margin-left: 900px;
+    position: absolute;
+    color: blueviolet;
+    font-size: 30px;
+    font-family: "chiller";
+    font-weight: bolder;
+}

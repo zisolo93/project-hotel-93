@@ -1,0 +1,188 @@
+body{
+    margin-top: 0;
+    padding: 0;
+    background-image: url('homelight.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#cont{
+    border-right: 2px gray solid;
+    background-image: url("wood.png");
+    background-size: cover;
+    position: absolute;
+    width:430px;
+    height: 655px;
+    margin-top: -18px;
+    padding: 0;
+    border-right: 5px rgb(215, 247, 72) solid;
+}
+#slideView{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    border-radius: 20px;
+    background-image: url("1.jpg");
+    background-size:cover;
+    margin-top: 260px;
+    transition:  all 5s;
+    position: fixed;
+   padding-left: 0;
+}
+#note{
+    color: rgb(42, 165, 65);
+    font-size: 40px;
+    width: 400px;
+    margin-top: -230px;
+    font-family: "AGF - Ejji Tsihuf";
+    font-weight: bolder;
+    margin-left: 10px;
+    text-shadow: 2px 2px rgba(4, 3, 3, 0.569);
+    transition: all color 5s;
+}
+#hhname{
+    width:400px;
+    font-size: 31px;
+    font-family: "algerian";
+    margin-top: 560px;
+    position: absolute;
+    transition:all 15s;
+    text-shadow: 10px 10px rgba(11, 9, 9, 0.512);
+    font-weight: bolder;
+    margin-left: 15px;
+}
+#language{
+    margin-left: 1015px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(43, 226, 208, 0.617);
+    color:black;
+    font-size: 30px;
+    border-radius: 30px;
+    font-family: "chiller";
+    transition: all,3s;
+    margin-top: 15px;
+    
+}
+#language:hover{
+    background-color: rgba(250, 2, 101, 0.773);
+    color:rgb(77, 12, 255);
+}
+#languageTitel{
+
+    margin-left: 900px;
+    position: absolute;
+    color: blueviolet;
+    font-size: 30px;
+    font-family: "chiller";
+    font-weight: bolder;
+    margin-top: 15px;
+}
+#menu{
+    position: absolute;
+    text-align: center;
+    border-bottom: 2px dashed yellow;
+    color: green;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 200px;
+    display: none;
+    
+    
+}
+a{
+    text-decoration: none;
+    border: 2px solid darkolivegreen;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(164, 255, 8);
+    transition: all,color,4s;
+    background-color: transparent;
+    width: 200px;
+   
+}
+a:hover{
+    background-color: rgb(161, 10, 10);
+    
+}
+a:active{
+    color: yellowgreen;
+    background-color: blueviolet;
+}
+#headList{
+    margin-top: 190px;
+    position:absolute;
+    margin-left:400px;
+    grid-template-columns: repeat(5,auto);
+    width: 900px;
+    
+}
+#home,#service,#contact,#contrat,#developers{
+    margin-left: 50px;
+    background-color: rgba(23, 2, 160, 0.679);
+    
+    
+}
+#home:hover,#service:hover,#contact:hover,#contrat:hover,#developers:hover{
+    
+    background-color: rgb(17, 229, 119);
+}
+#list{
+    position: absolute;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    padding-left: 60px;
+    width: 850px;
+    margin-top: 510px;
+    font-size: 20px;
+    margin-left: 400px;
+    
+    
+}
+#hname{
+    
+    position: absolute;
+    text-align: center;
+    font-family: "Baskerville Old Face";
+    font-size: 100px;
+    
+    text-shadow: 3px 2px rgb(243, 9, 9);
+    color:rgb(32, 218, 212);
+    transition: color all 3s;
+    font-weight: bolder;
+    margin-top: 50px;
+    width: 1000px;
+    border-radius: 20px;
+    margin-left: 330px;
+    
+    
+   
+}
+#hname:hover{
+    color:gold;
+    text-shadow: 5px 5px wheat;
+}
+#dayLightCon{
+    margin-top: 20px;
+    margin-left: 1200px;
+    color: yellow;
+    background-image: black;
+    position: absolute;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+#nightLightCon{
+    margin-top: 20px;
+    margin-left: 1200px;
+    color: rgb(14, 14, 13);
+    background-color: rgb(242, 236, 236);
+    position: absolute;
+    border-radius: 10px;
+   
+}
+#conname{
+    margin-left: 700px;
+    color:white;
+
+}

@@ -1,0 +1,46 @@
+<?php
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contrat.css">
+    <title>Document</title>
+</head>
+<body>
+    <button id="back"><a href="home.html">BACK TO HOME</a></button>
+    <button id="backtolog"><a href="login.html">I HAVE REGISTERD</a></button>
+
+    <form id="form" action="form.php" method="post">
+        <div id="form1">
+            <label class="forml" id="nameL">F_NAME : </label><br>
+            <input class="formi" type="text" placeholder="enter u're f_name here " name="fname" required><br>
+            <label class="forml" id="nameL">L_NAME : </label><br>
+            <input class="formi" type="text" placeholder="enter u're l_name here " name="lname" required><br>
+            <label class="forml" id="phon">Phone_No : </label><br>
+            <input class="formi" type="tel" placeholder="enter u're Phone_No here " name="phone" required><br>
+            <label class="forml" id="email">Email : </label><br>
+            <input class="formi" type="email" placeholder="solo93@gmail.com " name="email" required><br>
+            <label class="forml" id="date">STARTING DATE : </label><br>
+            <input class="formi" type="date" placeholder="Starting Date... " name="date" required><br>
+        </div>
+        <div id="form2">
+            <label class="forml" id="money">Start With : </label><br>
+            <input class="formi" type="number" placeholder="$100 " name="number"  ><br>
+            <label class="forml" id="photo">Photo : </label><br>
+            <input class="formi" type="file" placeholder="optional 3x4 " name="photo"><br>
+            <label class="forml" id="id">Id_No : </label><br>
+            <input class="formi" type="text" placeholder="enter u're Id_No here " name="id" required><br>
+            <label class="forml" id="password">Password : </label><br>
+            <input class="formi" type="password" placeholder="password must be 8 digit " name="password" required><br>
+            <label class="forml" id="confirmPassword">Confirm Password : </label><br>
+            <input class="formi" type="password" placeholder="enter agein for check up" name="confirmPassword" required><br>
+        </div>
+           <input id="submit" type="submit" name="submit" value="REGISTER">
+    </form>
+</body>
+</html>

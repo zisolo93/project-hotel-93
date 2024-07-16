@@ -1,0 +1,53 @@
+body{
+    background-image: url('back93.jpg');
+}
+
+#form{
+    margin-left: 400px;
+    padding: 50px;
+    border: 3px solid purple;
+    margin-top: 200px;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.344);
+    padding-left: 100px;
+
+}
+.label{
+    color:rgb(2, 2, 3);
+    font-size: 30px;
+    font-family: 'Baskerville Old Face';
+
+}
+.inp{
+    border-color: red;
+    background-color: transparent;
+    width: 340px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: 'chiller';
+    margin-left: 20px;
+    padding-left: 10px;
+}
+#login{
+    margin-left: 140px;
+    width: 150px;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 50px;
+    margin-top: 27px;
+}
+#reg{
+    margin-left: 640px;
+    width: 150px;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 50px;
+    margin-top: -80px;
+    position: absolute;
+    
+}
